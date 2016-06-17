@@ -7,7 +7,7 @@ angular.module('ibrm')
         if(!$scope.title || $scope.title === '') { return; }
         posts.create({
           title: $scope.title,
-          content: $scope.content,
+          content: $scope.content
         });
         $scope.title = '';
         $scope.content = '';

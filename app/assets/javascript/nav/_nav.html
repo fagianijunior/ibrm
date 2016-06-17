@@ -18,10 +18,10 @@
         <li><a href="#/about">Quem somos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#/login">Entrar</a></li>
-        <li><a href="#/register">Register</a></li>
-        <li><a ng-hide="true" href="#/">{{ me }}</a></li>
-        <li><a ng-hide="true" href="#/">Log Out</a></li>
+        <li ng-hide="signedIn()"><a href="#/login">Entrar</a></li>
+        <li ng-hide="signedIn()"><a href="#/register">Registrar</a></li>
+        <li ng-show="signedIn()"><a href="#/">{{ user.name }}</a></li>
+        <li ng-show="signedIn()"><a href="#" ng-click="logout()">Sair</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
