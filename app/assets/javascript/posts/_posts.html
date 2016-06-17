@@ -1,24 +1,17 @@
-<div class="page-header">
-  <h3>
-    <a ng-show="post.link" href="{{post.link}}">
-      {{post.title}}
-    </a>
-    <span ng-hide="post.link">
-      {{post.title}}
-    </span>
-  </h3>
-</div>
-<div ng-repeat="comment in post.comments | orderBy: '-upvotes'">
-  <span class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(comment)"></span>
-  {{comment.upvotes}} - by {{comment.user.username}}
-  <span style="font-size:20px; margin-left:10px;">
-    {{comment.body}}
-  </span>
-</div>
-<form ng-submit="addComment()" style="margin-top:30px;">
-  <h3>Add a new comment</h3>
-   <div class="form-group">
-    <input type="text" class="form-control" placeholder="Comment" ng-model="body"></input>
+<h1 class="text-center"><strong>{{post.title}}</strong></h1>
+<img ng-src="{{ post.cover }}" width="400" class="img-responsive img-rounded center-block" />
+<hr>
+<div class="row">
+  <div class="col col-md-6">
+    <img ng-src="{{ post.user.avatar }}" width="50" height="50" class="img-circle" /> {{ post.user.name }} em {{ post.created_at | date:'dd/MMMM/yyyy - HH:mm' }}
   </div>
-  <button type="submit" class="btn btn-primary">Post</button>
-</form>
+  <div class="col col-md-6 text-right">
+    Share botoes aqui
+  </div>
+</div>
+<hr>
+<h4 class="text-justify">
+  {{ post.content }}
+</h4>
+<a href="#/home">Voltar</a>
+<br><br>

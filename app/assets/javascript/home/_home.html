@@ -15,10 +15,10 @@
             <div class="col-md-12">
               <div class="row">
                 <div class="col-md-11">
-                  <h2 class="title"><a href="#/posts/{{ post.id }}">{{ post.title }}</a></h2>
+                  <h2><a href="#/posts/{{ post.id }}">{{ post.title }}</a></h2>
                 </div>
                 <div class="col-md-1">
-                  asd
+                  \/
                 </div>
               </div>
             </div>
@@ -27,27 +27,23 @@
             <div class="col-md-12">
               <hr>
               <p class="text-justify">
-                {{ post.content | limitTo:500 }}<br />
-                
-<span style="font-size:20px; margin-left:10px;">
-    <a ng-show="post.link" href="{{post.link}}">
-      {{post.title}} posted by <a ng-href-"#/users/{{post.user.username}}">{{post.user.username}}</a>
-    </a>
-    <span ng-hide="post.link">
-      {{post.title}}
-    </span>
-  </span>
-  <span>
-    <a href="#/posts/{{post.id}}">Comments</a>
-  </span>
+                {{ post.content | limitTo:500 }}... <a href="#/posts/{{ post.id }}">(Continuar lendo)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+    
 <form ng-submit="addPost()" style="margin-top:30px;">
   <h3>Add a new post</h3>
   <div class="form-group">
     <input type="text" class="form-control" placeholder="Title" ng-model="title"></input>
   </div>
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="Link" ng-model="link"></input>
+    <textarea class="form-control" placeholder="Canteúdo" rows="5" ng-model="content"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Post</button>
 </form>

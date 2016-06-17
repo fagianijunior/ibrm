@@ -20559,3 +20559,3290 @@ Processing by PostsController#index as JSON
   [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
 Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 08:50:58 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1419.0ms)
+Completed 200 OK in 1577ms (Views: 1548.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/home/_home.self-a3e02c179e4cf366af51fd86db30d13a6cc267493d049a3ee6590192c41c591d.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:00 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 08:51:01 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (66.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (24.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 318ms (Views: 83.0ms | ActiveRecord: 153.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-06-17 08:51:02 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:06 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 08:51:07 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:15 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/home/_home.self-a3e02c179e4cf366af51fd86db30d13a6cc267493d049a3ee6590192c41c591d.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:32 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:33 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:33 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:33 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 08:51:33 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 08:51:35 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:39 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 08:51:39 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 08:51:48 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (193.2ms)
+Completed 200 OK in 200ms (Views: 199.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/home/_home.self-c26fa80bff8388149755e3a7586f2646de36fd3781a623e0cf3f8018451f935f.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 08:58:59 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 08:59:00 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 08:59:00 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 08:59:00 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 08:59:00 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 08:59:01 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 08:59:06 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 08:59:07 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 08:59:13 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 09:40:46 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1849.7ms)
+Completed 200 OK in 2087ms (Views: 2003.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/home/_home.self-a5048775f5de24ca79163a6f339191c76818951c830165425229b9a93abea1b9.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 09:40:52 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 09:40:55 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (336.1ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (246.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 612ms (Views: 13.8ms | ActiveRecord: 582.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:42:27 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 09:42:29 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:42:49 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 09:44:26 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (280.6ms)
+Completed 200 OK in 287ms (Views: 286.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/home/_home.self-9c3959d7c7ecc1e9b3a7ea9b990df21e44514776f6b4baa59de1666100b9254d.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 09:44:27 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 09:44:28 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:44:32 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 09:44:32 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:44:42 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 09:47:33 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (326.0ms)
+Completed 200 OK in 337ms (Views: 336.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/home/_home.self-2cee498e79ef099c81e64c0f0c0393f86c157b84c63c7fd09d564be62d6cbae7.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 09:47:34 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 09:47:35 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 31ms (Views: 2.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:47:42 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 09:47:42 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:47:49 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 09:54:55 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (276.4ms)
+Completed 200 OK in 291ms (Views: 290.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/home/_home.self-1ae25e6c7cd27b784eef9a22fbdd2b5dd92d43cd818b74110f2d3302b6afa7d9.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 09:54:56 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 09:54:57 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:55:01 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 09:55:01 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:55:08 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (228.8ms)
+Completed 200 OK in 258ms (Views: 257.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/home/_home.self-eabe7b7b65a483ba4009ecfef37776d526a747fd7f4446cda44e2f3300bd1898.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:09 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:10 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 09:58:14 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:58:18 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 09:58:19 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:58:28 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 09:58:59 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (280.2ms)
+Completed 200 OK in 294ms (Views: 293.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:58:59 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:58:59 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:59 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:59 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 09:58:59 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/home/_home.self-efd22486b19c9779c6554462bdc87235cbb33cc1429edc094345e684b287b165.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 09:59:00 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 09:59:01 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 09:59:07 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 09:59:08 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 09:59:17 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (330.1ms)
+Completed 200 OK in 336ms (Views: 336.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/home/_home.self-f70964992ef5bd49ddb120e3c706d1d2061ac135c3b7e19fa33f70f1acc54feb.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:07 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:00:08 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:12 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 10:00:13 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:23 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (229.2ms)
+Completed 200 OK in 235ms (Views: 234.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/home/_home.self-24e454ab3b36a8d5eb37fae0885e6690b61051258a99e1ff8f464af07186fe50.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:24 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:00:26 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:33 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 10:00:34 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (234.0ms)
+Completed 200 OK in 242ms (Views: 241.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/home/_home.self-8cf612c4184dd8a7590fbab77b164152f6230f0743e886fba7245b3523ee09bd.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:00:35 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:00:37 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:44 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 10:00:45 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:00:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (221.4ms)
+Completed 200 OK in 232ms (Views: 231.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/home/_home.self-6c8ccf4c70ee319158a3ce29cdc7e423e7e5027833c801cc4fffb8d5d47b51f9.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:03 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:04 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:04 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:04 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:04 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:04 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:01:05 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:10 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 10:01:13 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:20 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:01:27 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/home/_home.self-6c8ccf4c70ee319158a3ce29cdc7e423e7e5027833c801cc4fffb8d5d47b51f9.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:28 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:01:32 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (277.5ms)
+Completed 200 OK in 285ms (Views: 284.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/home/_home.self-8a17cd5a826781430dfe25b25acb3e0f999fa8b028c5b41414ad68d7ec9e668c.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:01:33 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:01:35 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:26:35 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (735.4ms)
+Completed 200 OK in 824ms (Views: 780.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/home/_home.self-8a17cd5a826781430dfe25b25acb3e0f999fa8b028c5b41414ad68d7ec9e668c.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:39 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:40 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:40 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:26:40 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:26:40 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 130ms (Views: 2.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-06-17 10:26:42 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:30:00 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/home/_home.self-8a17cd5a826781430dfe25b25acb3e0f999fa8b028c5b41414ad68d7ec9e668c.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:30:02 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:30:06 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-06-17 10:30:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:55:36 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (265.1ms)
+Completed 200 OK in 273ms (Views: 272.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/home/_home.self-ef76763d69d8bb755740eb09a0e4b476108d2145ec71fbb14b618b1b1abab355.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:55:37 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (220.1ms)
+Completed 200 OK in 227ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/home/_home.self-d8528059b8767a9e4f76b60b7b25f22af4e9a0ced7a36b24e9b42b2964a9ea52.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:55:47 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (239.9ms)
+Completed 200 OK in 246ms (Views: 245.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/home/_home.self-cb4726bea679fcdbdb5cd408a1fb09c859bec530bdf5feba50fa198e09549ca1.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:02 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:56:03 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (216.0ms)
+Completed 200 OK in 222ms (Views: 221.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/posts/posts.self-20647cf14fb00c63ae2e5fcd708d0dc7e67616981fe275ef309ba90c3cb8d965.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:56:23 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/posts.json" for 127.0.0.1 at 2016-06-17 10:56:36 -0300
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"Novo post", "post"=>{"title"=>"Novo post"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `id' for nil:NilClass):
+  app/controllers/posts_controller.rb:7:in `create'
+
+
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.9ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (365.1ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (1520.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:56:48 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 10:56:48 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:56:57 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:57:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 10:59:14 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (207.9ms)
+Completed 200 OK in 214ms (Views: 213.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:59:14 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:59:14 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-355a6bb94dc6bb42bb58f26942331db6b49e290be835a68b25e25871c031e825.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 10:59:15 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 10:59:18 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 10:59:18 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 10:59:25 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:00:56 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (241.9ms)
+Completed 200 OK in 249ms (Views: 248.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:00:56 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:00:56 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:56 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f5c5817b3e65168a268797fb8be8e6e3ed8a79e21e3415392b9e52a166866999.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:00:57 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:01:00 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:01:00 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:01:06 -0300
+
+
+Started POST "/posts.json" for 127.0.0.1 at 2016-06-17 11:02:43 -0300
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"Mais um post", "content"=>"aqui um texto legal", "post"=>{"title"=>"Mais um post", "content"=>"aqui um texto legal"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `id' for nil:NilClass):
+  app/controllers/posts_controller.rb:7:in `create'
+
+
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.8ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (193.7ms)
+Completed 200 OK in 202ms (Views: 201.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:02:50 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:02:51 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:02:53 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:02:54 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:03:01 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:04:56 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1061.8ms)
+Completed 200 OK in 1129ms (Views: 1099.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/nav/_left.self-31e47ae12f8f92bec73d182e8d518a5fd23acdbfbb20532ed4db0674bb4b8d3b.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:04:58 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:04:59 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (55.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (29.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 280ms (Views: 92.9ms | ActiveRecord: 148.5ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-06-17 11:04:59 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:05:01 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:05:02 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:05:08 -0300
+
+
+Started POST "/posts.json" for 127.0.0.1 at 2016-06-17 11:05:20 -0300
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"title", "content"=>"content", "post"=>{"title"=>"title", "content"=>"content"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (156.7ms)[0m  [1mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "title"], ["content", "content"], ["user_id", 1], ["created_at", "2016-06-17 14:05:20.379138"], ["updated_at", "2016-06-17 14:05:20.379138"]]
+  [1m[35m (58.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 247ms (Views: 7.9ms | ActiveRecord: 215.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (204.8ms)
+Completed 200 OK in 212ms (Views: 211.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:49 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/posts/_posts.self-a93a5773c2c52fe8bb25bed14d7d1e26e698d135123609220ce3459b41337186.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:06:50 -0300
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:06:52 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:06:52 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:06:57 -0300
+
+
+Started POST "/posts.json" for 127.0.0.1 at 2016-06-17 11:08:11 -0300
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"title 2", "content"=>"<a href=\"google.com\">google</a>", "post"=>{"title"=>"title 2", "content"=>"<a href=\"google.com\">google</a>"}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["title", "title 2"], ["content", "<a href=\"google.com\">google</a>"], ["user_id", 1], ["created_at", "2016-06-17 14:08:11.566348"], ["updated_at", "2016-06-17 14:08:11.566348"]]
+  [1m[36m (19.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 201 Created in 27ms (Views: 2.3ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:08:33 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 204ms (Views: 1.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:09:15 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (194.2ms)
+Completed 200 OK in 201ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/posts/_posts.self-afb8f55aaac7851a27d5ae20505ce326817cd8340336bf8f9f78a172da746dfd.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:09:16 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:09:17 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:09:18 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:09:23 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:10:16 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (194.0ms)
+Completed 200 OK in 200ms (Views: 199.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/posts/_posts.self-1ebf18893cdf464bac8078e4c2a376e841d94571d97c17c1973cb6d383dc0997.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:10:17 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:10:18 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:10:19 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:10:24 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:17 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:13:19 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:21 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:13:23 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:25 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/3.json" for 127.0.0.1 at 2016-06-17 11:13:28 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:34 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/3.json" for 127.0.0.1 at 2016-06-17 11:13:36 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:37 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:13:38 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:39 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:13:41 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:42 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:13:43 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:13:46 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:13:54 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:13:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (208.9ms)
+Completed 200 OK in 218ms (Views: 217.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:10 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/posts/_posts.self-202b6520d65040d2ede7889cb1c38a7d899834895b616539e5823838d31d1b4b.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:20:11 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:20:12 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:20:12 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:20:13 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:20:36 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (196.3ms)
+Completed 200 OK in 204ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/posts/_posts.self-0d7af8bd0e3441c997abaf72fba755a685d2212e522d01b46d87826d6d317624.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:20:37 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:20:38 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:20:38 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:21:03 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (199.7ms)
+Completed 200 OK in 208ms (Views: 207.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/posts/_posts.self-701786871bf0e533acf673f1c625e1ce791db457bd81b6aad3b7128f0a00e011.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:21:04 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 3.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:05 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:21:05 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (204.6ms)
+Completed 200 OK in 212ms (Views: 211.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:17 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:18 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:18 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:18 -0300
+
+
+Started GET "/assets/posts/_posts.self-910d3f77d90ea0c8383522538e78f14421ad1703d6c8f42e97ef92c26f82af80.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:18 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:18 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:21:18 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:19 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:21:19 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:21:47 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (227.7ms)
+Completed 200 OK in 234ms (Views: 233.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/posts/_posts.self-f2f743612338fb7c47f49ec88a31f116b0f8e61b83033bed045323b7edcedfad.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:21:48 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:49 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:21:49 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (190.2ms)
+Completed 200 OK in 197ms (Views: 196.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/posts/_posts.self-e7598050877a72a6d97c5608c9d3e823b341cf83491eaf244dbb0fedd4ffd48b.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:21:53 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:21:54 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:21:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (197.7ms)
+Completed 200 OK in 204ms (Views: 203.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/posts/_posts.self-31ee35002e205a34bec1b1add47426117643e902a92b16da37ae192ae87456ad.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:25:18 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:25:19 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:26:49 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:26:50 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:27:07 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (192.8ms)
+Completed 200 OK in 199ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/posts/_posts.self-95196fd3932c6c0e18d80407c4593c06bf76d7a77f4487c5e64834622c612ce9.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:27:08 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:27:21 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:27:25 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (194.2ms)
+Completed 200 OK in 201ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/posts/_posts.self-facdb8a81a72908b6807d1f5f8e176ca7c9bbb6402acef2916409a531b498921.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:28:22 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:28:23 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:29:49 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:29:49 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/posts/_posts.self-facdb8a81a72908b6807d1f5f8e176ca7c9bbb6402acef2916409a531b498921.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:32:50 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:32:53 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:32:53 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:32:54 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:37:06 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (190.7ms)
+Completed 200 OK in 197ms (Views: 196.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/posts/_posts.self-7481902a7994ac38a942feee49d4ec4667f65597e7573906459e701297b8478e.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:37:07 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:37:08 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:37:08 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:13 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:37:15 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:16 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:37:17 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:18 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:37:20 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:23 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/3.json" for 127.0.0.1 at 2016-06-17 11:37:24 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:26 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (193.9ms)
+Completed 200 OK in 203ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/posts/_posts.self-03da0e88e678f2cc014a535b380046f6e1694a56b887ec99a00bceb27ad7d353.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:37:46 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:47 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:37:47 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:37:47 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:37:53 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:55 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:37:57 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:37:59 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:38:00 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:38:01 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:38:03 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:38:04 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:38:06 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:38:07 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/2.json" for 127.0.0.1 at 2016-06-17 11:38:09 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:38:12 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:50:19 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (205.0ms)
+Completed 200 OK in 214ms (Views: 213.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/posts/_posts.self-edff616ee59583a3c34f11511f28711c016c6b0e307589b3d4067d23e486cc38.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:51:44 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:51:45 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:51:45 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:51:46 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-17 11:52:08 -0300
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (200.7ms)
+Completed 200 OK in 207ms (Views: 206.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/angular/angular.self-09d22056f1fb887d7012ce3c2f5b58bf03df2dd7b91b6c2510a961ffccb25380.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/app.self-4c88e95afa36caab8ba2adf30439efd45d849adaedb48b5b6a9145450f81d253.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/home/_home.self-cec443bf444edf23517fdf21efeeace7d55b4cbfdbd3b111c67b880e89ef9d49.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/nav/_left.self-6cf1b8dafb556cb788fe295c152efacfd8a2e57f21b8834ff2e3023cae419832.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/home/mainCtrl.self-f48ce40fe43604531d20b47b41ccac2eaa675460609e23edbc8fa2cafb4415ab.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/nav/_footer.self-08716171333877f8decef3a67b473aeeec69b9a9a829ece5f2948aa018444ee2.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/nav/_nav.self-d0699f4a23cd2925503169bad133a345c0adf87861137b064514c3c0bcfb9c3f.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/nav/navCtrl.self-d023c9831422b4c90171d099b561eaa618380f8afc9c78ae89468962780f55c7.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/posts/postsCtrl.self-2db5bd35b90a169e643209c0fa5c7034ca8bc2f6ff2e7bc167dfc729c8c9d371.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/posts/_posts.self-3e0334d39a79e4b0f1a3a9ea5885f7b071561330d10d9d637db08a382cf8aef7.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/assets/posts/posts.self-9e3aa7ce6e58450f022fe6df1f065b29c627a079964a38ebdcbcac574d1c9c02.js?body=1" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+
+
+Started GET "/posts/1.json" for 127.0.0.1 at 2016-06-17 11:52:09 -0300
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-06-17 11:52:10 -0300
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-06-17 11:52:10 -0300
+
+
+Started GET "/posts.json" for 127.0.0.1 at 2016-06-17 11:54:41 -0300
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.6ms)

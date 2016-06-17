@@ -7,12 +7,9 @@ angular.module('ibrm')
         if(!$scope.title || $scope.title === '') { return; }
         posts.create({
           title: $scope.title,
-          link: $scope.link,
+          content: $scope.content,
         });
         $scope.title = '';
-        $scope.link = '';
-      };
-      $scope.incrementUpvotes = function(post) {
-        posts.upvote(post);
+        $scope.content = '';
       };
     }])
