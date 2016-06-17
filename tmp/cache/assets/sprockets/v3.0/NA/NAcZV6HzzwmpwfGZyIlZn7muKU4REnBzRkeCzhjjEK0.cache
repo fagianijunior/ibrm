@@ -1,0 +1,34 @@
+{:uriI"€file://app/assets/javascript/nav/_nav.html?type=text/ng-html&id=83dbc7055b05fc82df1c6b3961dbd3f198d512d5aa3b5aba8bff817eb933087b:ET:load_pathI"app/assets/javascript;T:filenameI"(app/assets/javascript/nav/_nav.html;T:	nameI"nav/_nav;T:logical_pathI"nav/_nav.html;T:content_typeI"text/ng-html;T:sourceI"!<nav class="navbar navbar-default navbar-static-top" ng-controller="NavCtrl">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#/home" class="navbar-brand">IBRM</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#/home">Postagens <span class="sr-only">(current)</span></a></li>
+        <li><a href="#/about">Quem somos</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/login">Entrar</a></li>
+        <li><a href="#/register">Register</a></li>
+        <li><a ng-hide="true" href="#/">{{ me }}</a></li>
+        <li><a ng-hide="true" href="#/">Log Out</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"6file-digest://app/assets/javascript/nav/_nav.html;TT:charsetI"
+utf-8;F:digest"%>Ÿ?jFOèÍõ_ÏöUèş ŒşÆŸ‹¬øÍ7œ:lengthi!:dependencies_digest"%_d(Òc¨ªPŸ<Rä!A?ÈÖ²‘ÅŠİZM–:idI"E83dbc7055b05fc82df1c6b3961dbd3f198d512d5aa3b5aba8bff817eb933087b;F:
+mtimel+›ÍaW

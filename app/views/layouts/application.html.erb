@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ibrm</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body ng-app="ibrm">
+  <div ng-include="'nav/_nav.html'"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="row">
+          <div class="col col-md-12">
+            <img src="http://www.ibrmaranata.com.br/assets/banner900x300-833cd30715e1a54f235b0b5115a24529e058984f44be65c9aed45e8010d732d0.png" class="img-responsive img-rounded">
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-12">
+            <ui-view></ui-view>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div ng-include="'nav/_left.html'"></div>
+      </div>
+    </div>
+    <div ng-include="'nav/_footer.html'"></div>
+  </div>
+</body>
+</html>
