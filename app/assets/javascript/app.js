@@ -1,4 +1,4 @@
-angular.module('ibrm', ['ui.router', 'templates', 'Devise'])
+angular.module('ibrm', ['ui.router', 'templates', 'Devise', 'ui.bootstrap'])
   .config([
     '$stateProvider',
     '$urlRouterProvider',

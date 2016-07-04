@@ -4,6 +4,7 @@ gem 'angular-rails-templates'
 gem 'angular_rails_csrf'
 gem 'devise'
 gem 'responder'
+gem 'angular-ui-bootstrap-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

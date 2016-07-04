@@ -19,4 +19,18 @@ angular.module('ibrm')
       $scope.$on('devise:logout', function(e, user) {
         $scope.user = {};
       });
+
+      //Dropdow menu
+      $scope.status = {
+        isopen: false
+      };
+
+      $scope.toggleDropdown = function($event) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        $scope.status.isopen = !$scope.status.isopen;
+      };
+
+      $scope.appendToEl = angular.element(document.querySelector('#dropdown-long-content'));
+
     }]);
